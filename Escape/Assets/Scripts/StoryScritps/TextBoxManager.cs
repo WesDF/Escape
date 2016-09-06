@@ -8,10 +8,18 @@ public class TextBoxManager : MonoBehaviour {
     public GameObject textBox;
     public Text fileText;
     public TextAsset textFile;
-    public string[] textLines;
-    public int currentLine;
-    public int endLine;
-    public string sceneName;
+    string[] textLines;
+    int currentLine;
+    int endLine;
+    string sceneName;
+
+    //Button locations
+    Vector3 location_1 = new Vector3(-167.5f, 15,0);
+    Vector3 location_2 = new Vector3(151.5f, 15,0);
+
+    //button variables for creating new choices
+    public Button choice_1;
+    public Button choice_2;
 
     // Use this for initialization
     void Start()
@@ -32,15 +40,17 @@ public class TextBoxManager : MonoBehaviour {
     {
 	    fileText.text = textLines[currentLine];
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) &&
+            currentLine < endLine)
         {
             currentLine += 1;
         }
 
-        if (currentLine > endLine)
+        if (currentLine == endLine)
         {
-            textBox.SetActive(false);
-            SceneManager.LoadScene(sceneName);
+            //activate choice buttons in scene
+            choice_1.gameObject.SetActive(true);
+            choice_2.gameObject.SetActive(true);
         }
 	}
 }
