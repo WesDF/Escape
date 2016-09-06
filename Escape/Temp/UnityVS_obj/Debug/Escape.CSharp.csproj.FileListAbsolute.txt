@@ -1,0 +1,17 @@
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Common.xml
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_obj\Debug\Escape.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\Jordan\Documents\GitHub\Escape\Escape\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
