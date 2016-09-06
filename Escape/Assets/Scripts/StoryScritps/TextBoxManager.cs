@@ -8,6 +8,7 @@ public class TextBoxManager : MonoBehaviour {
     public GameObject textBox;
     public Text fileText;
     public TextAsset textFile;
+    public GameObject background;
     string[] textLines;
     int currentLine;
     int endLine;
@@ -43,6 +44,12 @@ public class TextBoxManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space) &&
             currentLine < endLine)
         {
+            currentLine += 1;
+        }
+
+        if (fileText.text.Contains("+"))
+        {
+            background.SetActive(false);
             currentLine += 1;
         }
 
