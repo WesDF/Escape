@@ -75,6 +75,11 @@
     <Compile Include="Assets\Scripts\StoryScritps\TextBoxManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Text\Ending1.txt" />
+    <None Include="Assets\Text\Ending2.txt" />
+    <None Include="Assets\Text\Ending3.txt" />
+    <None Include="Assets\Text\LastText(Evolve).txt" />
+    <None Include="Assets\Text\LastText.txt" />
     <None Include="Assets\Text\MiddleText.txt" />
     <None Include="Assets\Text\StartText.txt" />
   </ItemGroup>
