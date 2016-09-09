@@ -7,6 +7,7 @@ public class ButtonBehaviorScript : MonoBehaviour {
     // used for loading a new scene
     //use inspector to input name
     public string[] choices = new string[6];
+    public string sceneName;
 
     public void StartGame()
     {
@@ -42,7 +43,7 @@ public class ButtonBehaviorScript : MonoBehaviour {
     public void Choice_3()
     {
         //TODO: For the next person working, use this area to set things in the CONSTANTS Script. This will be how we modify gameplay to keep it consistent.
-        SceneManager.LoadScene(choices[2]);
+        SceneManager.LoadScene(sceneName);
     }
     public void Choice_4()
     {
