@@ -43,4 +43,12 @@ public class BoardScript : MonoBehaviour {
         playerPos = new Vector3(Mathf.Clamp (xPos, -7.75f, 7.75f), -4.5f, 0);
         transform.position = playerPos;
     }
+    /// <summary>
+    /// returns the Vector3 boardPosition
+    /// </summary>
+    /// <returns></returns>
+    public Vector3 getBoardPosition()
+    {
+        return this.boardPosition;
+    }
 }

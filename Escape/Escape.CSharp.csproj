@@ -70,8 +70,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonBehaviorScript.cs" />
+    <Compile Include="Assets\Scripts\CONSTANTS.cs" />
     <Compile Include="Assets\Scripts\GameScripts\BallScript.cs" />
     <Compile Include="Assets\Scripts\GameScripts\BoardScript.cs" />
+    <Compile Include="Assets\Scripts\GameScripts\BrickScript.cs" />
     <Compile Include="Assets\Scripts\StoryScritps\ImportTextScript.cs" />
     <Compile Include="Assets\Scripts\StoryScritps\TextBoxManager.cs" />
   </ItemGroup>

@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class BallScript : MonoBehaviour
 {
-    public float ballInitial = 600f;
+    //public float ballInitial = 600f;
+    float ballInitial = CONSTANTS.getBallInitial();
     private Rigidbody2D rb;
     private bool ballgo;
     //Use this for initialization
@@ -21,6 +23,19 @@ public class BallScript : MonoBehaviour
             rb.isKinematic = false;
             rb.AddForce(new Vector3(ballInitial, ballInitial, 0));
         }
+
+        if (rb.position.y < -10)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
 	}
+
+    void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("brick"))
+        {
+            Destroy(col.gameObject);
+        }
+    }
 
 }
